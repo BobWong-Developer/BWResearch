@@ -1,18 +1,18 @@
 //
-//  BWResearchTests.m
-//  BWResearchTests
+//  BWiOSWebViewTests.m
+//  BWiOSWebViewTests
 //
-//  Created by Bob Wong on 16/7/21.
-//  Copyright © 2016年 Bob Wong Studio. All rights reserved.
+//  Created by BobWong on 2017/3/14.
+//  Copyright © 2017年 BobWong. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
 
-@interface BWResearchTests : XCTestCase
+@interface BWiOSWebViewTests : XCTestCase
 
 @end
 
-@implementation BWResearchTests
+@implementation BWiOSWebViewTests
 
 - (void)setUp {
     [super setUp];

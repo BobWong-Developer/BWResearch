@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:BWResearch.xcodeproj">
+      location = "self:BWiOSWebView.xcodeproj">
    </FileRef>
 </Workspace>

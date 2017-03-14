@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0730"
+   LastUpgradeVersion = "0820"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "212F52F41D40AE6A001CBA91"
-               BuildableName = "BWResearch.app"
-               BlueprintName = "BWResearch"
-               ReferencedContainer = "container:BWResearch.xcodeproj">
+               BlueprintIdentifier = "B492DA901E77E9A100B20E2E"
+               BuildableName = "BWiOSWebView.app"
+               BlueprintName = "BWiOSWebView"
+               ReferencedContainer = "container:BWiOSWebView.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,30 +32,30 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "212F530D1D40AE6A001CBA91"
-               BuildableName = "BWResearchTests.xctest"
-               BlueprintName = "BWResearchTests"
-               ReferencedContainer = "container:BWResearch.xcodeproj">
+               BlueprintIdentifier = "B492DAA91E77E9A100B20E2E"
+               BuildableName = "BWiOSWebViewTests.xctest"
+               BlueprintName = "BWiOSWebViewTests"
+               ReferencedContainer = "container:BWiOSWebView.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "212F53181D40AE6A001CBA91"
-               BuildableName = "BWResearchUITests.xctest"
-               BlueprintName = "BWResearchUITests"
-               ReferencedContainer = "container:BWResearch.xcodeproj">
+               BlueprintIdentifier = "B492DAB41E77E9A100B20E2E"
+               BuildableName = "BWiOSWebViewUITests.xctest"
+               BlueprintName = "BWiOSWebViewUITests"
+               ReferencedContainer = "container:BWiOSWebView.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "212F52F41D40AE6A001CBA91"
-            BuildableName = "BWResearch.app"
-            BlueprintName = "BWResearch"
-            ReferencedContainer = "container:BWResearch.xcodeproj">
+            BlueprintIdentifier = "B492DA901E77E9A100B20E2E"
+            BuildableName = "BWiOSWebView.app"
+            BlueprintName = "BWiOSWebView"
+            ReferencedContainer = "container:BWiOSWebView.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -75,10 +75,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "212F52F41D40AE6A001CBA91"
-            BuildableName = "BWResearch.app"
-            BlueprintName = "BWResearch"
-            ReferencedContainer = "container:BWResearch.xcodeproj">
+            BlueprintIdentifier = "B492DA901E77E9A100B20E2E"
+            BuildableName = "BWiOSWebView.app"
+            BlueprintName = "BWiOSWebView"
+            ReferencedContainer = "container:BWiOSWebView.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -94,10 +94,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "212F52F41D40AE6A001CBA91"
-            BuildableName = "BWResearch.app"
-            BlueprintName = "BWResearch"
-            ReferencedContainer = "container:BWResearch.xcodeproj">
+            BlueprintIdentifier = "B492DA901E77E9A100B20E2E"
+            BuildableName = "BWiOSWebView.app"
+            BlueprintName = "BWiOSWebView"
+            ReferencedContainer = "container:BWiOSWebView.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -1,9 +1,9 @@
 //
 //  ViewController.m
-//  BWResearch
+//  BWiOSWebView
 //
-//  Created by Bob Wong on 16/7/21.
-//  Copyright © 2016年 Bob Wong Studio. All rights reserved.
+//  Created by BobWong on 2017/3/14.
+//  Copyright © 2017年 BobWong. All rights reserved.
 //
 
 #import "ViewController.h"
@@ -19,9 +19,11 @@
     // Do any additional setup after loading the view, typically from a nib.
 }
 
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
 
 @end
