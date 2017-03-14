@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  BWUIWebViewController.h
 //  BWiOSWebView
 //
 //  Created by BobWong on 2017/3/14.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface BWUIWebViewController : UIViewController
 
 @end
-

@@ -9,12 +9,15 @@
 /* Begin PBXBuildFile section */
 		B492DA961E77E9A100B20E2E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B492DA951E77E9A100B20E2E /* main.m */; };
 		B492DA991E77E9A100B20E2E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B492DA981E77E9A100B20E2E /* AppDelegate.m */; };
-		B492DA9C1E77E9A100B20E2E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B492DA9B1E77E9A100B20E2E /* ViewController.m */; };
 		B492DA9F1E77E9A100B20E2E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B492DA9D1E77E9A100B20E2E /* Main.storyboard */; };
 		B492DAA11E77E9A100B20E2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B492DAA01E77E9A100B20E2E /* Assets.xcassets */; };
 		B492DAA41E77E9A100B20E2E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B492DAA21E77E9A100B20E2E /* LaunchScreen.storyboard */; };
 		B492DAAF1E77E9A100B20E2E /* BWiOSWebViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B492DAAE1E77E9A100B20E2E /* BWiOSWebViewTests.m */; };
 		B492DABA1E77E9A100B20E2E /* BWiOSWebViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B492DAB91E77E9A100B20E2E /* BWiOSWebViewUITests.m */; };
+		B492DAD11E77ECA300B20E2E /* BWHomeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B492DAD01E77ECA300B20E2E /* BWHomeTableViewController.m */; };
+		B492DAD61E77EDC100B20E2E /* BWUIWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B492DAD51E77EDC100B20E2E /* BWUIWebViewController.m */; };
+		B492DAD91E77EDD700B20E2E /* BWWKWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B492DAD81E77EDD700B20E2E /* BWWKWebViewController.m */; };
+		B492DADC1E77EE8900B20E2E /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B492DADB1E77EE8900B20E2E /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +42,6 @@
 		B492DA951E77E9A100B20E2E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B492DA971E77E9A100B20E2E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B492DA981E77E9A100B20E2E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B492DA9A1E77E9A100B20E2E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B492DA9B1E77E9A100B20E2E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		B492DA9E1E77E9A100B20E2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B492DAA01E77E9A100B20E2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B492DAA31E77E9A100B20E2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +52,13 @@
 		B492DAB51E77E9A100B20E2E /* BWiOSWebViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BWiOSWebViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B492DAB91E77E9A100B20E2E /* BWiOSWebViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWiOSWebViewUITests.m; sourceTree = "<group>"; };
 		B492DABB1E77E9A100B20E2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B492DACF1E77ECA300B20E2E /* BWHomeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWHomeTableViewController.h; sourceTree = "<group>"; };
+		B492DAD01E77ECA300B20E2E /* BWHomeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWHomeTableViewController.m; sourceTree = "<group>"; };
+		B492DAD41E77EDC100B20E2E /* BWUIWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWUIWebViewController.h; sourceTree = "<group>"; };
+		B492DAD51E77EDC100B20E2E /* BWUIWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWUIWebViewController.m; sourceTree = "<group>"; };
+		B492DAD71E77EDD700B20E2E /* BWWKWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWWKWebViewController.h; sourceTree = "<group>"; };
+		B492DAD81E77EDD700B20E2E /* BWWKWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWWKWebViewController.m; sourceTree = "<group>"; };
+		B492DADB1E77EE8900B20E2E /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B492DADC1E77EE8900B20E2E /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +94,7 @@
 				B492DAAD1E77E9A100B20E2E /* BWiOSWebViewTests */,
 				B492DAB81E77E9A100B20E2E /* BWiOSWebViewUITests */,
 				B492DA921E77E9A100B20E2E /* Products */,
+				B492DADA1E77EE8900B20E2E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,12 +113,8 @@
 			children = (
 				B492DA971E77E9A100B20E2E /* AppDelegate.h */,
 				B492DA981E77E9A100B20E2E /* AppDelegate.m */,
-				B492DA9A1E77E9A100B20E2E /* ViewController.h */,
-				B492DA9B1E77E9A100B20E2E /* ViewController.m */,
-				B492DA9D1E77E9A100B20E2E /* Main.storyboard */,
+				B492DACA1E77EC7300B20E2E /* MVC */,
 				B492DAA01E77E9A100B20E2E /* Assets.xcassets */,
-				B492DAA21E77E9A100B20E2E /* LaunchScreen.storyboard */,
-				B492DAA51E77E9A100B20E2E /* Info.plist */,
 				B492DA941E77E9A100B20E2E /* Supporting Files */,
 			);
 			path = BWiOSWebView;
@@ -118,6 +124,9 @@
 			isa = PBXGroup;
 			children = (
 				B492DA951E77E9A100B20E2E /* main.m */,
+				B492DAA51E77E9A100B20E2E /* Info.plist */,
+				B492DAA21E77E9A100B20E2E /* LaunchScreen.storyboard */,
+				B492DA9D1E77E9A100B20E2E /* Main.storyboard */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -138,6 +147,51 @@
 				B492DABB1E77E9A100B20E2E /* Info.plist */,
 			);
 			path = BWiOSWebViewUITests;
+			sourceTree = "<group>";
+		};
+		B492DACA1E77EC7300B20E2E /* MVC */ = {
+			isa = PBXGroup;
+			children = (
+				B492DACE1E77ECA300B20E2E /* Home */,
+				B492DAD21E77EDA800B20E2E /* UIWebView */,
+				B492DAD31E77EDA800B20E2E /* WKWebView */,
+			);
+			path = MVC;
+			sourceTree = "<group>";
+		};
+		B492DACE1E77ECA300B20E2E /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				B492DACF1E77ECA300B20E2E /* BWHomeTableViewController.h */,
+				B492DAD01E77ECA300B20E2E /* BWHomeTableViewController.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		B492DAD21E77EDA800B20E2E /* UIWebView */ = {
+			isa = PBXGroup;
+			children = (
+				B492DAD41E77EDC100B20E2E /* BWUIWebViewController.h */,
+				B492DAD51E77EDC100B20E2E /* BWUIWebViewController.m */,
+			);
+			path = UIWebView;
+			sourceTree = "<group>";
+		};
+		B492DAD31E77EDA800B20E2E /* WKWebView */ = {
+			isa = PBXGroup;
+			children = (
+				B492DAD71E77EDD700B20E2E /* BWWKWebViewController.h */,
+				B492DAD81E77EDD700B20E2E /* BWWKWebViewController.m */,
+			);
+			path = WKWebView;
+			sourceTree = "<group>";
+		};
+		B492DADA1E77EE8900B20E2E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B492DADB1E77EE8900B20E2E /* WebKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,9 +330,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B492DA9C1E77E9A100B20E2E /* ViewController.m in Sources */,
 				B492DA991E77E9A100B20E2E /* AppDelegate.m in Sources */,
 				B492DA961E77E9A100B20E2E /* main.m in Sources */,
+				B492DAD61E77EDC100B20E2E /* BWUIWebViewController.m in Sources */,
+				B492DAD11E77ECA300B20E2E /* BWHomeTableViewController.m in Sources */,
+				B492DAD91E77EDD700B20E2E /* BWWKWebViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,6 +483,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = V3E8GUFW32;
 				INFOPLIST_FILE = BWiOSWebView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bws.BWiOSWebView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -439,6 +496,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = V3E8GUFW32;
 				INFOPLIST_FILE = BWiOSWebView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bws.BWiOSWebView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
