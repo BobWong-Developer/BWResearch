@@ -1,0 +1,3 @@
+[submodule "Git/Submodule"]
+	path = Git/Submodule
+	url = https://github.com/bobwongs/BWiOSDesignPattern.git
